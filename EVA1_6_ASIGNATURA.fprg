@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-20 04:47:11 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMTAxOzIwMjQtMDItMjA7MDQ6MTM6MzggcC4gbS47MjgyNA=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMTAxOzIwMjQtMDItMjA7MDQ6NDc6MTEgcC4gbS47MTsyOTMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="clave" type="String" array="False" size=""/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="carrera" type="String" array="False" size=""/>
+            <declare name="tipoMateria" type="Boolean" array="False" size=""/>
+            <declare name="creditos" type="Integer" array="False" size=""/>
+            <declare name="HT" type="Integer" array="False" size=""/>
+            <declare name="HP" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cual es la clave de la materia?&quot;" newline="True"/>
+            <input variable="clave"/>
+            <output expression="&quot;Cual es el nombre de la materia?&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="&quot;Cual es el nombre de la carrera?&quot;" newline="True"/>
+            <input variable="carrera"/>
+            <output expression="&quot;Es materia generica?&quot;" newline="True"/>
+            <input variable="tipoMateria"/>
+            <output expression="&quot;Cuantos creditos da la materia?&quot;" newline="True"/>
+            <input variable="creditos"/>
+            <output expression="&quot;Cuantas horas teoricas tiene la materia?&quot;" newline="True"/>
+            <input variable="HT"/>
+            <output expression="&quot;Cuantas horas practicas tiene la materia?&quot;" newline="True"/>
+            <input variable="HP"/>
+            <output expression="&quot;Clave de la materia: &quot;" newline="True"/>
+            <output expression="clave" newline="True"/>
+            <output expression="&quot;Nombre de la materia: &quot;" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="&quot;Nombre de la carrera: &quot;" newline="True"/>
+            <output expression="carrera" newline="True"/>
+            <output expression="&quot;La materia es generica: &quot;" newline="True"/>
+            <output expression="tipoMateria" newline="True"/>
+            <output expression="&quot;Numero de creditos: &quot;" newline="True"/>
+            <output expression="creditos" newline="True"/>
+            <output expression="&quot;Numero de horas teoricas: &quot;" newline="True"/>
+            <output expression="HT" newline="True"/>
+            <output expression="&quot;Numero de horas practicas: &quot;" newline="True"/>
+            <output expression="HP" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
